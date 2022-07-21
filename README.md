@@ -19,18 +19,15 @@ In a nutshell ``Python performance tools`` is a small library with a set of util
 ```python
 # File: example_1.py
 
-import os
 import time
 
 from performance_tools import *
 
 
 def main():
-    environment = os.environ.get("ENVIRONMENT", None)
-
-    with catch_time("Example message 2", lambda: environment in ("DEVELOPMENT", "STAGING")):
+    with catch_time("Example message"):
         for i in range(10):
-            time.sleep(1)
+            time.sleep(0.1)
 
 
 if __name__ == '__main__':
