@@ -1,4 +1,4 @@
-# Python Performance toolt & utilities
+# Python Performance tools & utilities
 
 ![License](https://img.shields.io/badge/License-Apache2-SUCCESS)
 ![Pypi](https://img.shields.io/pypi/v/python-performance-tools)
